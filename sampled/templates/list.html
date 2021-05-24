@@ -1,0 +1,27 @@
+<html>
+<div class = "main">
+
+    <div class="">
+            {{responce}}
+            {{msg}}
+    </div>
+
+<table>    
+<tr>
+    <th>id</th>
+    <th>name</th>
+    <th>job</th>
+    <th>location</th>
+</tr>
+{% for person in l_person %}
+<tr>
+    <td>{{person.id}}</td>
+    <td>{{person.name}}</td>
+    <td>{{person.job}}</td>
+    <td>{{person.location}}</td>
+</tr>
+</br>
+{% endfor %}
+</table>
+</div>
+</html>

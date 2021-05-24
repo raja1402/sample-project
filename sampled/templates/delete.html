@@ -1,0 +1,8 @@
+<html>
+<form method="POST">
+{% csrf_token %}
+<div>
+<p>Please submit if you want to delete the person from database</p>
+<input type="submit" value="Yes"/>
+<button onclick="window.history.back();" class="btn btn-default" type="button">Cancel</button>
+</div>
